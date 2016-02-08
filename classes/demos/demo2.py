@@ -1,4 +1,4 @@
-__author__ = 'tripi'
+__author__ = 'nikhil'
 
 from turtle import Turtle
 from time import clock, sleep
