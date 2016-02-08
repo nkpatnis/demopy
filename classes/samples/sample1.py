@@ -1,5 +1,7 @@
 __author__ = 'tripi'
 
+from time import strftime
+
 while True:
     a = input('Enter : ')
     if int(a) == 1:
@@ -8,6 +10,6 @@ while True:
         checker = False
 
     if checker:
-        print('true h')
+        print(strftime("%Y-%m-%d")+'.log')
     else:
         print('false h')
